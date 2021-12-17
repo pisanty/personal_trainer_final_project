@@ -77,7 +77,7 @@ function AddCustomer(props) {
             name="address"
             value={customer.address}
             onChange={inputChanged}
-            label="Acaddress"
+            label="Address"
             fullWidth
             variant="standard"
           />

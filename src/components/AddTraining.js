@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 import Button from '@mui/material/Button'
 import TextField from '@mui/material/TextField'
@@ -81,7 +81,7 @@ function AddTraining(props) {
           <TextField
             margin="dense"
             name="customer"
-            value={training.customer}
+            value={training.customer.id}
             onChange={inputChanged}
             label="Customer"
             fullWidth
