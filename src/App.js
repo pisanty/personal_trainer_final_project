@@ -8,9 +8,9 @@ import Traininglist from './components/Traininglist'
 function App() {
    return (
     <div className="App">
-      <AppBar position="static" color="dark">
+      <AppBar position="static">
         <Toolbar>
-          <Typography variant="h6" color="dark">
+          <Typography variant="h6">
             P.P.T - Pisanty Personal Trainer
           </Typography>
         </Toolbar>

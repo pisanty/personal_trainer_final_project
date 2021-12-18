@@ -41,7 +41,7 @@ function Trainings() {
         pagination={true}
         paginationPageSize={15}
         rowHeight={40}
-      />{' '}
+      />
      
     </div>
   )
